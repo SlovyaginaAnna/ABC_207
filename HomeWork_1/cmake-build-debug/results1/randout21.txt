@@ -1,0 +1,7 @@
+Filled container:
+Container contains 5 elements.
+0: Beast: name = kcny, weight = 8203, type = insectivorous. Division result = 0.0532732
+1: Fish: name = xqcxw, weight = 312, habit = sea. Division result = 1.83013
+2: Bird: name = mnabyvcedpou, weight = 379, migratory = 1. Division result = 3.41161
+3: Beast: name = qhftgpr, weight = 4920, type = herbivorous. Division result = 0.155285
+4: Bird: name = cegxsvavvxbcbqq, weight = 674, migratory = 0. Division result = 2.4184

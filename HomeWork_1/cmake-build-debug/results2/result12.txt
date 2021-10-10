@@ -1,0 +1,4 @@
+Arithmetical mean = 0.103143
+Container after deleting:
+Container contains 1 elements.
+0: Beast: name = cheetah, weight = 7000, type = predator. Division result = 0.103143

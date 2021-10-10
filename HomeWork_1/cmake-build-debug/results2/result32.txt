@@ -1,0 +1,4 @@
+Arithmetical mean = 1.55111
+Container after deleting:
+Container contains 1 elements.
+0: Bird: name = parrotina, weight = 600, migratory = 0. Division result = 1.62667

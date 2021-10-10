@@ -1,0 +1,6 @@
+Arithmetical mean = 5.26122
+Container after deleting:
+Container contains 3 elements.
+0: Bird: name = gfffh, weight = 56, migratory = 0. Division result = 9.16071
+1: Fish: name = rrrr, weight = 23, habit = sea. Division result = 19.8261
+2: Fish: name = fishy, weight = 57, habit = lake. Division result = 9.59649

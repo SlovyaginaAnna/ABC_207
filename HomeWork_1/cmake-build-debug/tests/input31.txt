@@ -1,0 +1,2 @@
+2 parrot 450 0
+2 parrotina 600 0

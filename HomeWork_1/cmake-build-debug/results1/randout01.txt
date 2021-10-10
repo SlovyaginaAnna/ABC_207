@@ -1,0 +1,7 @@
+Filled container:
+Container contains 5 elements.
+0: Fish: name = noisrcfo, weight = 657, habit = lake. Division result = 1.31963
+1: Beast: name = qvyxvv, weight = 9863, type = predator. Division result = 0.0717834
+2: Bird: name = qkwdws, weight = 326, migratory = 0. Division result = 2.06442
+3: Beast: name = qpcis, weight = 7350, type = predator. Division result = 0.0740136
+4: Fish: name = suhqvfprhear, weight = 588, habit = ocean. Division result = 2.22959

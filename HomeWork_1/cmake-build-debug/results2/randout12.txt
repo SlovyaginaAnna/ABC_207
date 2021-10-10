@@ -1,0 +1,4 @@
+Arithmetical mean = 2.51459
+Container after deleting:
+Container contains 1 elements.
+0: Fish: name = fdmfcmxoxyxig, weight = 85, habit = ocean. Division result = 16.7176

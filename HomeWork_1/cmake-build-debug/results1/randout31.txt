@@ -1,0 +1,3 @@
+Filled container:
+Container contains 1 elements.
+0: Beast: name = btqbnmy, weight = 6725, type = predator. Division result = 0.113755

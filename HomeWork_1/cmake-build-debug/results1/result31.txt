@@ -1,0 +1,4 @@
+Filled container:
+Container contains 2 elements.
+0: Bird: name = parrot, weight = 450, migratory = 0. Division result = 1.47556
+1: Bird: name = parrotina, weight = 600, migratory = 0. Division result = 1.62667

@@ -1,0 +1,13 @@
+Filled container:
+Container contains 11 elements.
+0: Beast: name = sfyxxq, weight = 6009, type = herbivorous. Division result = 0.114994
+1: Bird: name = iffag, weight = 608, migratory = 1. Division result = 0.837171
+2: Fish: name = lmrfwsf, weight = 674, habit = sea. Division result = 1.14095
+3: Fish: name = fdmfcmxoxyxig, weight = 85, habit = ocean. Division result = 16.7176
+4: Fish: name = qpkeffkcarwbahg, weight = 972, habit = ocean. Division result = 1.62037
+5: Beast: name = jmwjnxrtg, weight = 2885, type = insectivorous. Division result = 0.34766
+6: Bird: name = arbfwnjafibh, weight = 358, migratory = 0. Division result = 3.49721
+7: Bird: name = xvxmvjat, weight = 647, migratory = 1. Division result = 1.39722
+8: Beast: name = ghdiygpytyyyj, weight = 5935, type = herbivorous. Division result = 0.244987
+9: Beast: name = wohvo, weight = 4568, type = herbivorous. Division result = 0.123249
+10: Fish: name = nbspkyw, weight = 483, habit = river. Division result = 1.61905

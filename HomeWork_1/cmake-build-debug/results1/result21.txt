@@ -1,0 +1,11 @@
+Filled container:
+Container contains 9 elements.
+0: Beast: name = cheetah, weight = 7000, type = predator. Division result = 0.103143
+1: Fish: name = fis, weight = 57, habit = lake. Division result = 5.64912
+2: Beast: name = beasty, weight = 5674, type = herbivorous. Division result = 0.114205
+3: Bird: name = gfffh, weight = 56, migratory = 0. Division result = 9.16071
+4: Beast: name = pam, weight = 234, type = insectivorous. Division result = 1.35897
+5: Fish: name = rrrr, weight = 23, habit = sea. Division result = 19.8261
+6: Fish: name = fishy, weight = 57, habit = lake. Division result = 9.59649
+7: Beast: name = beas, weight = 3456, type = herbivorous. Division result = 0.118924
+8: Bird: name = birdy, weight = 378, migratory = 0. Division result = 1.42328

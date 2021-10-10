@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/HW__.dir/main.cpp.o CMakeFiles/HW__.dir/animals.cpp.o CMakeFiles/HW__.dir/fish.cpp.o CMakeFiles/HW__.dir/bird.cpp.o CMakeFiles/HW__.dir/beast.cpp.o CMakeFiles/HW__.dir/container.cpp.o -o HW__ 
