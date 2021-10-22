@@ -1,0 +1,5 @@
+Division result = 1.97353
+Container after deleting:
+Container contains 2 elements.
+0: It is Fish: name = hjrxjtptwf, weight = 465, habit = SEA. Division = 2.39785
+1: It is Bird: name = txgqewvt, weight = 213, migratory = 0. Division = 4.25352

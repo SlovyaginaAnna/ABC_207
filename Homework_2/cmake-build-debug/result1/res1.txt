@@ -1,0 +1,5 @@
+Filled container:
+Container contains 3 elements.
+0: It is Fish: name = kambala, weight = 5, habit = SEA. Division = 142.6
+1: It is Bird: name = popug, weight = 10, migratory = 0. Division = 55.5
+2: It is Beast: name = catty, weight = 77, habit = HERBIVOROUS. Division = 7.12987

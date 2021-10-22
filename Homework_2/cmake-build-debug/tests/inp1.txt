@@ -1,0 +1,3 @@
+1 kambala 5 4
+2 popug 10 0
+3 catty 77 1

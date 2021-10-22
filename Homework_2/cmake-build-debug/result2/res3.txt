@@ -1,0 +1,4 @@
+Division result = 7.3943
+Container after deleting:
+Container contains 1 elements.
+0: It is Bird: name = plotva, weight = 45, migratory = 1. Division = 14.7111

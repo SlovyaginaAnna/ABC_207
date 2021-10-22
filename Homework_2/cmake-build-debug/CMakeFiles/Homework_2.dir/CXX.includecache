@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/anna/CLionProjects/ABC/Homework_2/animals.h
+fstream
+-
+
+/home/anna/CLionProjects/ABC/Homework_2/container.cpp
+iostream
+-
+container.h
+/home/anna/CLionProjects/ABC/Homework_2/container.h
+fstream
+/home/anna/CLionProjects/ABC/Homework_2/fstream
+
+/home/anna/CLionProjects/ABC/Homework_2/container.h
+animals.h
+/home/anna/CLionProjects/ABC/Homework_2/animals.h
+fstream
+/home/anna/CLionProjects/ABC/Homework_2/fstream
+

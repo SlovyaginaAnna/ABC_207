@@ -1,0 +1,7 @@
+Division result = 3.35984
+Container after deleting:
+Container contains 4 elements.
+0: It is Bird: name = plotva, weight = 45, migratory = 0. Division = 14.7111
+1: It is Fish: name = forel, weight = 67, habit = LAKE. Division = 8
+2: It is Fish: name = forelina, weight = 67, habit = LAKE. Division = 12.6567
+3: It is Fish: name = foreli, weight = 67, habit = SEA. Division = 9.56716

@@ -1,0 +1,4 @@
+Division result = 2.44989
+Container after deleting:
+Container contains 1 elements.
+0: It is Bird: name = tqrohjme, weight = 291, migratory = 1. Division = 3.00344

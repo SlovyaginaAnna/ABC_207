@@ -1,0 +1,4 @@
+Filled container:
+Container contains 2 elements.
+0: It is Beast: name = shon, weight = 5678, habit = HERBIVOROUS. Division = 0.0774921
+1: It is Bird: name = plotva, weight = 45, migratory = 1. Division = 14.7111

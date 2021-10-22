@@ -1,0 +1,5 @@
+Filled container:
+Container contains 3 elements.
+0: It is Fish: name = flaunder, weight = 34, habit = LAKE. Division = 24.9706
+1: It is Bird: name = birdy, weight = 46, migratory = 1. Division = 11.6957
+2: It is Fish: name = sushi, weight = 789, habit = OCEAN. Division = 0.704689

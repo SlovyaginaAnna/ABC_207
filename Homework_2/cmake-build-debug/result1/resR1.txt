@@ -1,0 +1,13 @@
+Filled container:
+Container contains 11 elements.
+0: It is Beast: name = ybrusvewfmrmc, weight = 273, habit = HERBIVOROUS. Division = 5.26007
+1: It is Beast: name = pqcpmobpl, weight = 123, habit = PREDATOR. Division = 7.9187
+2: It is Fish: name = bgmtbeq, weight = 956, habit = LAKE. Division = 0.771967
+3: It is Fish: name = sjtrzrzq, weight = 710, habit = OCEAN. Division = 1.29859
+4: It is Fish: name = rjm, weight = 477, habit = RIVER. Division = 0.689727
+5: It is Bird: name = szpgvrjlwmioes, weight = 284, migratory = 0. Division = 5.48592
+6: It is Beast: name = tjovqlmywofwy, weight = 824, habit = PREDATOR. Division = 1.78883
+7: It is Fish: name = ugog, weight = 878, habit = RIVER. Division = 0.494305
+8: It is Fish: name = dhe, weight = 324, habit = LAKE. Division = 0.941358
+9: It is Fish: name = it, weight = 365, habit = RIVER. Division = 0.605479
+10: It is Beast: name = ycqdxr, weight = 954, habit = HERBIVOROUS. Division = 0.699161

@@ -1,0 +1,4 @@
+Division result = 2.08805
+Container after deleting:
+Container contains 1 elements.
+0: It is Fish: name = ixncoxsmk, weight = 477, habit = SEA. Division = 2.08805

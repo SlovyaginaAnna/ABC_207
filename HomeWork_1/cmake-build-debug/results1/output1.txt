@@ -1,5 +1,3 @@
 Filled container:
-Container contains 3 elements.
-0: Fish: name = fishy, weight = 57, habit = lake. Division result = 9.59649
-1: Beast: name = beasty, weight = 3456, type = herbivorous. Division result = 0.1875
-2: Bird: name = birdy, weight = 378, migratory = 0. Division result = 1.42328
+Container contains 1 elements.
+0: Fish: name = knnca, weight = 916, habit = river. Division result = 0.570961

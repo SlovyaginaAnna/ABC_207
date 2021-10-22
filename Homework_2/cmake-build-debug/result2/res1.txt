@@ -1,0 +1,4 @@
+Division result = 68.41
+Container after deleting:
+Container contains 1 elements.
+0: It is Fish: name = kambala, weight = 5, habit = SEA. Division = 142.6

@@ -1,0 +1,6 @@
+Division result = 2.35946
+Container after deleting:
+Container contains 3 elements.
+0: It is Beast: name = ybrusvewfmrmc, weight = 273, habit = HERBIVOROUS. Division = 5.26007
+1: It is Beast: name = pqcpmobpl, weight = 123, habit = PREDATOR. Division = 7.9187
+2: It is Bird: name = szpgvrjlwmioes, weight = 284, migratory = 0. Division = 5.48592

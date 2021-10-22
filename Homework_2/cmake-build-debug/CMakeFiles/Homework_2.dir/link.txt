@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Homework_2.dir/main.cpp.o CMakeFiles/Homework_2.dir/animals.cpp.o CMakeFiles/Homework_2.dir/fish.cpp.o CMakeFiles/Homework_2.dir/beast.cpp.o CMakeFiles/Homework_2.dir/bird.cpp.o CMakeFiles/Homework_2.dir/container.cpp.o -o Homework_2 

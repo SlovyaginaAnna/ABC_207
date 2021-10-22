@@ -1,0 +1,4 @@
+1 flaunder 34 2
+2 birdy 46 3
+-2 cheetah 68900 2
+1 sushi 789 3

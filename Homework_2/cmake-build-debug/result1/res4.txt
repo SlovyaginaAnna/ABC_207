@@ -1,0 +1,17 @@
+Filled container:
+Container contains 15 elements.
+0: It is Beast: name = shon, weight = 5678, habit = HERBIVOROUS. Division = 0.0774921
+1: It is Bird: name = plotva, weight = 45, migratory = 0. Division = 14.7111
+2: It is Fish: name = forel, weight = 67, habit = LAKE. Division = 8
+3: It is Bird: name = shong, weight = 5673, migratory = 1. Division = 0.0957166
+4: It is Bird: name = plotv, weight = 451, migratory = 1. Division = 1.25277
+5: It is Fish: name = forelina, weight = 67, habit = LAKE. Division = 12.6567
+6: It is Beast: name = shonr, weight = 5678, habit = PREDATOR. Division = 0.0975696
+7: It is Bird: name = plotvania, weight = 4456, migratory = 1. Division = 0.218582
+8: It is Fish: name = foreli, weight = 67, habit = SEA. Division = 9.56716
+9: It is Beast: name = shont, weight = 5678, habit = PREDATOR. Division = 0.0979218
+10: It is Bird: name = plot, weight = 452, migratory = 0. Division = 0.988938
+11: It is Fish: name = fore, weight = 673, habit = LAKE. Division = 0.635958
+12: It is Beast: name = kris, weight = 5678, habit = HERBIVOROUS. Division = 0.0776682
+13: It is Bird: name = jaba, weight = 425, migratory = 0. Division = 0.936471
+14: It is Fish: name = forest, weight = 670, habit = LAKE. Division = 0.983582

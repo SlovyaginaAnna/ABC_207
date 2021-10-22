@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/164/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/169/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/164/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/169/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/anna/CLionProjects/HW++
+CMAKE_SOURCE_DIR = /home/anna/CLionProjects/ABC/HomeWork_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/anna/CLionProjects/HW++/cmake-build-debug
+CMAKE_BINARY_DIR = /home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/HW__.dir/clean
 CMakeFiles/HW__.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW__.dir/build.make CMakeFiles/HW__.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/HW__.dir/build.make CMakeFiles/HW__.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target HW__"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target HW__"
 .PHONY : CMakeFiles/HW__.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HW__.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/HW__.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/HW__.dir/rule
 
 # Convenience name for target.

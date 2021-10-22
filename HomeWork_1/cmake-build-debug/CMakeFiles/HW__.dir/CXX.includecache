@@ -6,43 +6,51 @@
 
 #IncludeRegexTransform: 
 
-/home/anna/CLionProjects/HW++/animals.cpp
+/home/anna/CLionProjects/ABC/HomeWork_1/animals.cpp
 animals.h
-/home/anna/CLionProjects/HW++/animals.h
+/home/anna/CLionProjects/ABC/HomeWork_1/animals.h
 
-/home/anna/CLionProjects/HW++/animals.h
+/home/anna/CLionProjects/ABC/HomeWork_1/animals.h
 fish.h
-/home/anna/CLionProjects/HW++/fish.h
+/home/anna/CLionProjects/ABC/HomeWork_1/fish.h
 bird.h
-/home/anna/CLionProjects/HW++/bird.h
+/home/anna/CLionProjects/ABC/HomeWork_1/bird.h
 beast.h
-/home/anna/CLionProjects/HW++/beast.h
+/home/anna/CLionProjects/ABC/HomeWork_1/beast.h
 
-/home/anna/CLionProjects/HW++/beast.h
+/home/anna/CLionProjects/ABC/HomeWork_1/beast.cpp
+beast.h
+/home/anna/CLionProjects/ABC/HomeWork_1/beast.h
+
+/home/anna/CLionProjects/ABC/HomeWork_1/beast.h
 fstream
 -
 
-/home/anna/CLionProjects/HW++/bird.h
+/home/anna/CLionProjects/ABC/HomeWork_1/bird.cpp
+bird.h
+/home/anna/CLionProjects/ABC/HomeWork_1/bird.h
+
+/home/anna/CLionProjects/ABC/HomeWork_1/bird.h
 fstream
 -
 
-/home/anna/CLionProjects/HW++/container.cpp
+/home/anna/CLionProjects/ABC/HomeWork_1/container.cpp
 container.h
-/home/anna/CLionProjects/HW++/container.h
+/home/anna/CLionProjects/ABC/HomeWork_1/container.h
 
-/home/anna/CLionProjects/HW++/container.h
+/home/anna/CLionProjects/ABC/HomeWork_1/container.h
 animals.h
-/home/anna/CLionProjects/HW++/animals.h
+/home/anna/CLionProjects/ABC/HomeWork_1/animals.h
 
-/home/anna/CLionProjects/HW++/fish.cpp
+/home/anna/CLionProjects/ABC/HomeWork_1/fish.cpp
 fish.h
-/home/anna/CLionProjects/HW++/fish.h
+/home/anna/CLionProjects/ABC/HomeWork_1/fish.h
 
-/home/anna/CLionProjects/HW++/fish.h
+/home/anna/CLionProjects/ABC/HomeWork_1/fish.h
 fstream
 -
 
-/home/anna/CLionProjects/HW++/main.cpp
+/home/anna/CLionProjects/ABC/HomeWork_1/main.cpp
 iostream
 -
 fstream
@@ -54,5 +62,5 @@ ctime
 cstring
 -
 container.h
-/home/anna/CLionProjects/HW++/container.h
+/home/anna/CLionProjects/ABC/HomeWork_1/container.h
 

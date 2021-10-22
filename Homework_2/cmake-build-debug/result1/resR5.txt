@@ -1,0 +1,5 @@
+Filled container:
+Container contains 3 elements.
+0: It is Bird: name = tqrohjme, weight = 291, migratory = 1. Division = 3.00344
+1: It is Beast: name = xpnwcrjfvjkfy, weight = 796, habit = PREDATOR. Division = 1.80402
+2: It is Beast: name = gjxxzlh, weight = 308, habit = HERBIVOROUS. Division = 2.54221

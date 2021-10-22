@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/anna/CLionProjects/HW++/cmake-build-debug"/>
+				<Option working_dir="/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/anna/CLionProjects/HW++/cmake-build-debug"/>
+				<Option working_dir="/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/anna/CLionProjects/HW++/cmake-build-debug"/>
+				<Option working_dir="/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HW__">
-				<Option output="/home/anna/CLionProjects/HW++/cmake-build-debug/HW__" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/anna/CLionProjects/HW++/cmake-build-debug"/>
+				<Option output="/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/HW__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW__"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW__"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HW__/fast">
-				<Option output="/home/anna/CLionProjects/HW++/cmake-build-debug/HW__" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/anna/CLionProjects/HW++/cmake-build-debug"/>
+				<Option output="/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/HW__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,47 +75,47 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW__/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/HW++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW__/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/anna/CLionProjects/HW++/animals.cpp">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/animals.cpp">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/animals.h">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/animals.h">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/beast.cpp">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/beast.cpp">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/beast.h">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/beast.h">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/bird.cpp">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/bird.cpp">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/bird.h">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/bird.h">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/container.cpp">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/container.cpp">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/container.h">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/container.h">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/fish.cpp">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/fish.cpp">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/fish.h">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/fish.h">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/main.cpp">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/main.cpp">
 			<Option target="HW__"/>
 		</Unit>
-		<Unit filename="/home/anna/CLionProjects/HW++/CMakeLists.txt">
+		<Unit filename="/home/anna/CLionProjects/ABC/HomeWork_1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

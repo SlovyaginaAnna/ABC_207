@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anna/CLionProjects/HW++/animals.cpp" "/home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles/HW__.dir/animals.cpp.o"
-  "/home/anna/CLionProjects/HW++/beast.cpp" "/home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles/HW__.dir/beast.cpp.o"
-  "/home/anna/CLionProjects/HW++/bird.cpp" "/home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles/HW__.dir/bird.cpp.o"
-  "/home/anna/CLionProjects/HW++/container.cpp" "/home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles/HW__.dir/container.cpp.o"
-  "/home/anna/CLionProjects/HW++/fish.cpp" "/home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles/HW__.dir/fish.cpp.o"
-  "/home/anna/CLionProjects/HW++/main.cpp" "/home/anna/CLionProjects/HW++/cmake-build-debug/CMakeFiles/HW__.dir/main.cpp.o"
+  "/home/anna/CLionProjects/ABC/HomeWork_1/animals.cpp" "/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles/HW__.dir/animals.cpp.o"
+  "/home/anna/CLionProjects/ABC/HomeWork_1/beast.cpp" "/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles/HW__.dir/beast.cpp.o"
+  "/home/anna/CLionProjects/ABC/HomeWork_1/bird.cpp" "/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles/HW__.dir/bird.cpp.o"
+  "/home/anna/CLionProjects/ABC/HomeWork_1/container.cpp" "/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles/HW__.dir/container.cpp.o"
+  "/home/anna/CLionProjects/ABC/HomeWork_1/fish.cpp" "/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles/HW__.dir/fish.cpp.o"
+  "/home/anna/CLionProjects/ABC/HomeWork_1/main.cpp" "/home/anna/CLionProjects/ABC/HomeWork_1/cmake-build-debug/CMakeFiles/HW__.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
