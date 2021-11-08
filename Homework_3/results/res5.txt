@@ -1,0 +1,6 @@
+Container is store 0 animals:
+
+Division result  = 0
+
+Container after deleting:
+Container is store 0 animals:

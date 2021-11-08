@@ -1,0 +1,23 @@
+Container is store 11 animals:
+Fish: name = xnudRnTRZ  weight = 2205  habit = lake, Division = 0.40589569160997735
+Fish: name = wIF  weight = 1498  habit = lake, Division = 0.17489986648865152
+Fish: name = fzpJhtnIL  weight = 1040  habit = sea, Division = 0.8548076923076923
+Fish: name = AuRGMrvWruDU  weight = 3630  habit = river, Division = 0.3071625344352617
+Bird: name = qIRCUazEQh  weight = 1726  migratory = True, Division = 0.5173812282734647
+Bird: name = yHbTsrjkigeDR  weight = 1606  migratory = True, Division = 0.7945205479452054
+Bird: name = xvISWwekcQHCJCR  weight = 134  migratory = False, Division = 10.074626865671641
+Fish: name = OGxOBltL  weight = 4293  habit = sea, Division = 0.16655019799673887
+Bird: name = Ofk  weight = 1915  migratory = False, Division = 0.1503916449086162
+Bird: name = fMafbfPlc  weight = 2320  migratory = False, Division = 0.3728448275862069
+Bird: name = DDgPYoitZ  weight = 4550  migratory = False, Division = 0.1824175824175824
+
+Division result  = 1.2728635163310034
+
+Container after deleting:
+Container is store 6 animals:
+Fish: name = wIF  weight = 1498  habit = lake, Division = 0.17489986648865152
+Fish: name = AuRGMrvWruDU  weight = 3630  habit = river, Division = 0.3071625344352617
+Bird: name = yHbTsrjkigeDR  weight = 1606  migratory = True, Division = 0.7945205479452054
+Bird: name = xvISWwekcQHCJCR  weight = 134  migratory = False, Division = 10.074626865671641
+Bird: name = Ofk  weight = 1915  migratory = False, Division = 0.1503916449086162
+Bird: name = DDgPYoitZ  weight = 4550  migratory = False, Division = 0.1824175824175824

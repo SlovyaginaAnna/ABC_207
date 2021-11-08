@@ -1,0 +1,9 @@
+Container is store 2 animals:
+Beast: name = shon  weight = 5678  type = predator, Division = 0.07749207467418105
+Bird: name = plotva  weight = 45  migratory = False, Division = 14.71111111111111
+
+Division result  = 7.394301592892646
+
+Container after deleting:
+Container is store 1 animals:
+Bird: name = plotva  weight = 45  migratory = False, Division = 14.71111111111111

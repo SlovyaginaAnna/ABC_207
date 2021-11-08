@@ -1,0 +1,10 @@
+Container is store 3 animals:
+Fish: name = kambala  weight = 5  habit = river, Division = 142.6
+Bird: name = popug  weight = 10  migratory = True, Division = 55.5
+Beast: name = catty  weight = 77  type = predator, Division = 7.12987012987013
+
+Division result  = 68.40995670995672
+
+Container after deleting:
+Container is store 1 animals:
+Fish: name = kambala  weight = 5  habit = river, Division = 142.6

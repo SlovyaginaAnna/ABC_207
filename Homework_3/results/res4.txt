@@ -1,0 +1,30 @@
+Container is store 15 animals:
+Beast: name = shon  weight = 5678  type = predator, Division = 0.07749207467418105
+Bird: name = plotva  weight = 45  migratory = False, Division = 14.71111111111111
+Fish: name = forel  weight = 67  habit = ocean, Division = 8.0
+Bird: name = shong  weight = 5673  migratory = False, Division = 0.09571655208884189
+Bird: name = plotv  weight = 451  migratory = True, Division = 1.252771618625277
+Fish: name = forelina  weight = 67  habit = ocean, Division = 12.656716417910447
+Beast: name = shonr  weight = 5678  type = insectivorous, Division = 0.09756956674885522
+Bird: name = plotvania  weight = 4456  migratory = True, Division = 0.21858168761220825
+Fish: name = foreli  weight = 67  habit = lake, Division = 9.567164179104477
+Beast: name = shont  weight = 5678  type = insectivorous, Division = 0.09792180345191968
+Bird: name = plot  weight = 452  migratory = False, Division = 0.9889380530973452
+Fish: name = fore  weight = 673  habit = ocean, Division = 0.6359583952451708
+Beast: name = kris  weight = 5678  type = predator, Division = 0.07766819302571328
+Bird: name = jaba  weight = 425  migratory = False, Division = 0.9364705882352942
+Fish: name = forest  weight = 670  habit = ocean, Division = 0.9835820895522388
+
+Division result  = 3.359844155365538
+
+Container after deleting:
+Container is store 9 animals:
+Bird: name = plotva  weight = 45  migratory = False, Division = 14.71111111111111
+Fish: name = forel  weight = 67  habit = ocean, Division = 8.0
+Bird: name = plotv  weight = 451  migratory = True, Division = 1.252771618625277
+Fish: name = forelina  weight = 67  habit = ocean, Division = 12.656716417910447
+Bird: name = plotvania  weight = 4456  migratory = True, Division = 0.21858168761220825
+Fish: name = foreli  weight = 67  habit = lake, Division = 9.567164179104477
+Bird: name = plot  weight = 452  migratory = False, Division = 0.9889380530973452
+Beast: name = kris  weight = 5678  type = predator, Division = 0.07766819302571328
+Fish: name = forest  weight = 670  habit = ocean, Division = 0.9835820895522388

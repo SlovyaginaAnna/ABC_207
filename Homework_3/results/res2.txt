@@ -1,0 +1,9 @@
+Container is store 2 animals:
+Fish: name = flaunder  weight = 34  habit = ocean, Division = 24.970588235294116
+Bird: name = birdy  weight = 46  migratory = True, Division = 11.695652173913043
+
+Division result  = 18.33312020460358
+
+Container after deleting:
+Container is store 1 animals:
+Fish: name = flaunder  weight = 34  habit = ocean, Division = 24.970588235294116

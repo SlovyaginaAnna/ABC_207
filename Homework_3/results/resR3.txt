@@ -1,0 +1,8 @@
+Container is store 1 animals:
+Bird: name = iopsAL  weight = 3634  migratory = True, Division = 0.16070445789763346
+
+Division result  = 0.16070445789763346
+
+Container after deleting:
+Container is store 1 animals:
+Bird: name = iopsAL  weight = 3634  migratory = True, Division = 0.16070445789763346

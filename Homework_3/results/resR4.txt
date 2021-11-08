@@ -1,0 +1,17 @@
+Container is store 7 animals:
+Bird: name = Ieo  weight = 4484  migratory = True, Division = 0.0635593220338983
+Fish: name = eEWXR  weight = 4655  habit = river, Division = 0.09172932330827067
+Beast: name = sYvnhVCKNygO  weight = 2477  type = herbivorous, Division = 0.46225272507064996
+Fish: name = zIldVDih  weight = 3855  habit = river, Division = 0.1987029831387808
+Bird: name = KxsmNnSbH  weight = 577  migratory = False, Division = 1.490467937608319
+Beast: name = OYXAGQO  weight = 592  type = insectivorous, Division = 0.9324324324324325
+Fish: name = UEmA  weight = 3837  habit = lake, Division = 0.08548345061245764
+
+Division result  = 0.47494688202925833
+
+Container after deleting:
+Container is store 4 animals:
+Fish: name = eEWXR  weight = 4655  habit = river, Division = 0.09172932330827067
+Fish: name = zIldVDih  weight = 3855  habit = river, Division = 0.1987029831387808
+Bird: name = KxsmNnSbH  weight = 577  migratory = False, Division = 1.490467937608319
+Beast: name = OYXAGQO  weight = 592  type = insectivorous, Division = 0.9324324324324325
