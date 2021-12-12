@@ -1,0 +1,245 @@
+     1                                  ; file.asm - использование файлов в NASM
+     2                                  extern printf
+     3                                  extern fprintf
+     4                                  
+     5                                  extern PerimeterRectangle
+     6                                  extern PerimeterTriangle
+     7                                  
+     8                                  extern FISH
+     9                                  extern BIRD
+    10                                  extern BEAST
+    11                                  
+    12                                  global OutFish
+    13                                  OutFish:
+    14                                  section .data
+    15 00000000 497420697320466973-         .outfmt db "It is Fish: name = %s, weight = %d, hdbit = %d. ",10,0
+    15 00000009 683A206E616D65203D-
+    15 00000012 2025732C2077656967-
+    15 0000001B 6874203D2025642C20-
+    15 00000024 6864626974203D2025-
+    15 0000002D 642E200A00         
+    16                                  section .bss
+    17 00000000 <res 00000008>              .ptrian  resq  1
+    18 00000008 <res 00000008>              .FILE   resq  1       ; временное хранение указателя на файл
+    19 00000010 <res 00000008>              .p      resq  1       ; вычисленный периметр треугольника
+    20                                  section .text
+    21 00000000 55                      push rbp
+    22 00000001 4889E5                  mov rbp, rsp
+    23                                  
+    24                                      ; Сохранени принятых аргументов
+    25 00000004 48893C25[00000000]          mov     [.ptrian], rdi        ; сохраняется адрес рыбы
+    26 0000000C 48893425[08000000]          mov     [.FILE], rsi          ; сохраняется указатель на файл
+    27                                  
+    28                                      ; Вычисление периметра треугольника (адрес уже в rdi)
+    29                                      ;call    PerimeterTriangle
+    30                                      ;movsd   [.p], xmm0          ; сохранение (может лишнее) периметра
+    31                                  
+    32                                      ; Вывод информации о рыбе в файл
+    33 00000014 488B3C25[08000000]          mov     rdi, [.FILE]
+    34 0000001C 48BE-                       mov     rsi, .outfmt        ; Формат - 2-й аргумент
+    34 0000001E [0000000000000000] 
+    35 00000026 488B0425[00000000]          mov     rax, [.ptrian]      ; адрес рыбы
+    36 0000002E 8B10                        mov     edx, [rax]          
+    37 00000030 8B4804                      mov     ecx, [rax+4]        
+    38 00000033 4C8B4008                    mov      r8, [rax+8]        
+    39 00000037 F20F100425-                 movsd   xmm0, [.p]
+    39 0000003C [10000000]         
+    40 00000040 B801000000                  mov     rax, 1              ; есть числа с плавающей точкой
+    41 00000045 E8(00000000)                call    fprintf
+    42                                  
+    43 0000004A C9                      leave
+    44 0000004B C3                      ret
+    45                                  
+    46                                  global OutBird
+    47                                  OutBird:
+    48                                  section .data
+    49 00000032 497420697320426972-         .outfmt db "It is Bird: name = %s, weight = %d, migratory = %d. ",10,0
+    49 0000003B 643A206E616D65203D-
+    49 00000044 2025732C2077656967-
+    49 0000004D 6874203D2025642C20-
+    49 00000056 6D69677261746F7279-
+    49 0000005F 203D2025642E200A00 
+    50                                  section .bss
+    51 00000018 <res 00000008>              .ptrian  resq  1
+    52 00000020 <res 00000008>              .FILE   resq  1       ; временное хранение указателя на файл
+    53 00000028 <res 00000008>              .p      resq  1       ; вычисленный периметр треугольника
+    54                                  section .text
+    55 0000004C 55                      push rbp
+    56 0000004D 4889E5                  mov rbp, rsp
+    57                                  
+    58                                      ; Сохранени принятых аргументов
+    59 00000050 48893C25[18000000]          mov     [.ptrian], rdi        ; сохраняется адрес рыбы
+    60 00000058 48893425[20000000]          mov     [.FILE], rsi          ; сохраняется указатель на файл
+    61                                  
+    62                                      ; Вычисление периметра треугольника (адрес уже в rdi)
+    63                                      ;call    PerimeterTriangle
+    64                                      ;movsd   [.p], xmm0          ; сохранение (может лишнее) периметра
+    65                                  
+    66                                      ; Вывод информации о птице в файл
+    67 00000060 488B3C25[20000000]          mov     rdi, [.FILE]
+    68 00000068 48BE-                       mov     rsi, .outfmt        ; Формат - 2-й аргумент
+    68 0000006A [3200000000000000] 
+    69 00000072 488B0425[18000000]          mov     rax, [.ptrian]      ; адрес рыбы
+    70 0000007A 8B10                        mov     edx, [rax]          
+    71 0000007C 8B4804                      mov     ecx, [rax+4]        
+    72 0000007F 4C8B4008                    mov      r8, [rax+8]        
+    73 00000083 F20F100425-                 movsd   xmm0, [.p]
+    73 00000088 [28000000]         
+    74 0000008C B801000000                  mov     rax, 1              ; есть числа с плавающей точкой
+    75 00000091 E8(00000000)                call    fprintf
+    76                                  
+    77 00000096 C9                      leave
+    78 00000097 C3                      ret
+    79                                  
+    80                                  global OutBeast
+    81                                  OutBeast:
+    82                                  section .data
+    83 00000068 497420697320426561-         .outfmt db "It is Beast: name = %s, weight = %d, type = %d. ",10,0
+    83 00000071 73743A206E616D6520-
+    83 0000007A 3D2025732C20776569-
+    83 00000083 676874203D2025642C-
+    83 0000008C 2074797065203D2025-
+    83 00000095 642E200A00         
+    84                                  section .bss
+    85 00000030 <res 00000008>              .ptrian  resq  1
+    86 00000038 <res 00000008>              .FILE   resq  1       ; временное хранение указателя на файл
+    87 00000040 <res 00000008>              .p      resq  1       ; вычисленный периметр треугольника
+    88                                  section .text
+    89 00000098 55                      push rbp
+    90 00000099 4889E5                  mov rbp, rsp
+    91                                  
+    92                                      ; Сохранени принятых аргументов
+    93 0000009C 48893C25[30000000]          mov     [.ptrian], rdi        ; сохраняется адрес рыбы
+    94 000000A4 48893425[38000000]          mov     [.FILE], rsi          ; сохраняется указатель на файл
+    95                                  
+    96                                      ; Вычисление периметра треугольника (адрес уже в rdi)
+    97                                      ;call    PerimeterTriangle
+    98                                      ;movsd   [.p], xmm0          ; сохранение (может лишнее) периметра
+    99                                  
+   100                                      ; Вывод информации о звере в файл
+   101 000000AC 488B3C25[38000000]          mov     rdi, [.FILE]
+   102 000000B4 48BE-                       mov     rsi, .outfmt        ; Формат - 2-й аргумент
+   102 000000B6 [6800000000000000] 
+   103 000000BE 488B0425[30000000]          mov     rax, [.ptrian]      ; адрес рыбы
+   104 000000C6 8B10                        mov     edx, [rax]          
+   105 000000C8 8B4804                      mov     ecx, [rax+4]        
+   106 000000CB 4C8B4008                    mov      r8, [rax+8]        
+   107 000000CF F20F100425-                 movsd   xmm0, [.p]
+   107 000000D4 [40000000]         
+   108 000000D8 B801000000                  mov     rax, 1              ; есть числа с плавающей точкой
+   109 000000DD E8(00000000)                call    fprintf
+   110                                  
+   111 000000E2 C9                      leave
+   112 000000E3 C3                      ret
+   113                                  
+   114                                  global OutAnimal
+   115                                  OutAnimal:
+   116                                  section .data
+   117 0000009A 496E636F7272656374-         .erAnimal db "Incorrect animal!",10,0
+   117 000000A3 20616E696D616C210A-
+   117 000000AC 00                 
+   118                                  section .text
+   119 000000E4 55                      push rbp
+   120 000000E5 4889E5                  mov rbp, rsp
+   121                                  
+   122                                      ; В rdi адрес фигуры
+   123 000000E8 8B07                        mov eax, [rdi]
+   124 000000EA 3B0425[00000000]            cmp eax, [FISH]
+   125 000000F1 7428                        je fishOut
+   126 000000F3 3B0425[00000000]            cmp eax, [BIRD]
+   127                                      je birdOut
+   127          ******************       error: symbol `birdOut' undefined
+   128 000000FA 3B0425[00000000]            cmp eax, [BEAST]
+   129 00000101 742C                        je beastOut
+   130 00000103 48BF-                       mov rdi, .erAnimal
+   130 00000105 [9A00000000000000] 
+   131 0000010D B800000000                  mov rax, 0
+   132 00000112 E8(00000000)                call fprintf
+   133 00000117 EB1F                        jmp     return
+   134                                  fishOut:
+   134          ******************       error: label `fishOut' changed during code generation [-w+error=label-redef-late]
+   135                                      ; Вывод рыбы
+   136 00000119 4883C704                    add     rdi, 4
+   137 0000011D E8DEFEFFFF                  call    OutFish
+   138 00000122 EB14                        jmp     return
+   139                                  trianOut:
+   139          ******************       error: label `trianOut' changed during code generation [-w+error=label-redef-late]
+   140                                      ; Вывод птицы
+   141 00000124 4883C704                    add     rdi, 4
+   142 00000128 E81FFFFFFF                  call    OutBird
+   143                                  beastOut:
+   143          ******************       error: label `beastOut' changed during code generation [-w+error=label-redef-late]
+   144                                      ; Вывод зверя
+   145 0000012D 4883C704                    add     rdi, 4
+   146 00000131 E862FFFFFF                  call    OutBeast
+   147                                  return:
+   147          ******************       error: label `return' changed during code generation [-w+error=label-redef-late]
+   148 00000136 C9                      leave
+   149 00000137 C3                      ret
+   150                                  
+   151                                  ;----------------------------------------------
+   152                                  ; // Вывод содержимого контейнера в файл
+   153                                  ; void OutContainer(void *c, int len, FILE *ofst) {
+   154                                  ;     void *tmp = c;
+   155                                  ;     fprintf(ofst, "Container contains %d elements.\n", len);
+   156                                  ;     for(int i = 0; i < len; i++) {
+   157                                  ;         fprintf(ofst, "%d: ", i);
+   158                                  ;         OutShape(tmp, ofst);
+   159                                  ;         tmp = tmp + shapeSize;
+   160                                  ;     }
+   161                                  ; }
+   162                                  global OutContainer
+   163                                  OutContainer:
+   163          ******************       error: label `OutContainer' changed during code generation [-w+error=label-redef-late]
+   164                                  section .data
+   165 000000AD 25643A2000                  numFmt  db  "%d: ",0
+   166                                  section .bss
+   167 00000048 <res 00000008>              .pcont  resq    1   ; адрес контейнера
+   168 00000050 <res 00000004>              .len    resd    1   ; адрес для сохранения числа введенных элементов
+   169 00000054 <res 00000008>              .FILE   resq    1   ; указатель на файл
+   170                                  section .text
+   171 00000138 55                      push rbp
+   172 00000139 4889E5                  mov rbp, rsp
+   173                                  
+   174 0000013C 48893C25[48000000]          mov [.pcont], rdi   ; сохраняется указатель на контейнер
+   175 00000144 893425[50000000]            mov [.len],   esi     ; сохраняется число элементов
+   176 0000014B 48891425[54000000]          mov [.FILE],  rdx    ; сохраняется указатель на файл
+   177                                  
+   178                                      ; В rdi адрес начала контейнера
+   179 00000153 4889F3                      mov rbx, rsi            ; число животных
+   180 00000156 31C9                        xor ecx, ecx            ; счетчик животных = 0
+   181 00000158 4889D6                      mov rsi, rdx            ; перенос указателя на файл
+   182                                  .loop:
+   182          ******************       error: label `numFmt.loop' changed during code generation [-w+error=label-redef-late]
+   183 0000015B 39D9                        cmp ecx, ebx            ; проверка на окончание цикла
+   184 0000015D 7D4F                        jge .return             ; Перебрали всех животных
+   185                                  
+   186 0000015F 53                          push rbx
+   187 00000160 51                          push rcx
+   188                                  
+   189                                      ; Вывод номера животного
+   190 00000161 488B3C25[54000000]          mov     rdi, [.FILE]    ; текущий указатель на файл
+   191 00000169 48BE-                       mov     rsi, numFmt     ; формат для вывода животного
+   191 0000016B [AD00000000000000] 
+   192 00000173 89CA                        mov     edx, ecx        ; индекс текущего животного
+   193 00000175 4831C0                      xor     rax, rax,       ; только целочисленные регистры
+   194 00000178 E8(00000000)                call fprintf
+   195                                  
+   196                                      ; Вывод текущего животного
+   197 0000017D 488B3C25[48000000]          mov     rdi, [.pcont]
+   198 00000185 488B3425[54000000]          mov     rsi, [.FILE]
+   199 0000018D E852FFFFFF                  call OutAnimal     
+   200                                  
+   201 00000192 59                          pop rcx
+   202 00000193 5B                          pop rbx
+   203 00000194 FFC1                        inc ecx                 ; индекс следующей фигуры
+   204                                  
+   205 00000196 488B0425[48000000]          mov     rax, [.pcont]
+   206 0000019E 4883C010                    add     rax, 16         ; адрес следующей фигуры
+   207 000001A2 48890425[48000000]          mov     [.pcont], rax
+   208 000001AA EBAF                        jmp .loop
+   209                                  .return:
+   209          ******************       error: label `numFmt.return' changed during code generation [-w+error=label-redef-late]
+   210 000001AC C9                      leave
+   211 000001AD C3                      ret
+   212                                  

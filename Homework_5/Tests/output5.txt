@@ -1,0 +1,3 @@
+Invitation number 1 from John with text - ttttttttttttttttttttttttttttttttttttt was answered negatively
+Invitation number 3 from Mark with text - rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr was answered negatively
+Invitation number 2 from Simon with text - hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh was answered positively
